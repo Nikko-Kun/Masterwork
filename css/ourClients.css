@@ -1,0 +1,61 @@
+.testimonials {
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.77)), url(../img/b2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.owl-carousel.owl-loaded{
+    display: block;
+}
+.owl-carousel{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.owl-stage-outer{
+    position: relative;
+    overflow: hidden;
+}
+.owl-item{
+    min-height: 1px;
+    float: left;
+}
+.owl-item .slider-info{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 50px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.owl-item .slider-info .img-circle{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    overflow: hidden;
+    background: #f3f6f9;
+    border-radius: 50%;
+    border: 3px solid #dc4f72;
+}
+.owl-item .slider-info .img-circle img{
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.owl-item .slider-info .message{
+    position: relative;
+}
+.owl-item .slider-info .message span{
+    font-size: 30px;
+    color: #2C3038;
+    opacity: 0.2;
+    position: absolute;
+    top: 0px;
+    left: -40px;
+    right: 0;
+}
+
