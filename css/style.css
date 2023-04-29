@@ -81,7 +81,7 @@ html, body {
     opacity: 0;
     top: 0;
     left: 0;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
 }
 .questions__content ul li i{
     position: absolute;
