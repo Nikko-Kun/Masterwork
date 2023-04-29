@@ -42,7 +42,10 @@ html, body {
     padding-top: 3rem;
 }
 /* QUESTIONS */
-.questions {
+
+@import url(./questions.css);
+
+/* .questions {
     background-color: #f7f9fc;
 }
 .questions__image img{
@@ -51,7 +54,7 @@ html, body {
     transition: all 0.3s;
     max-width: 100%;
     height: auto;
-}
+} */
 .questions__image img:hover{
     transform: translateY(-10px);
 }
