@@ -1,0 +1,43 @@
+.maCarousel {
+    margin-top: 90px;
+    padding: 80px 20px 0;
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0.8)), url(../img/banner.jpg) ;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.maCarousel__content {
+    display: flex;
+    align-items: center;
+}
+
+.maCarousel__left h2 {
+    font-size: 50px;
+    line-height: 57.5px;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.maCarousel__left p {
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 0 15px;
+}
+
+.maCarousel__left {
+    width: 50%;
+}
+
+.maCarousel__right {
+    background-image: url(../img/main.png);
+    width: 50%;
+    height: 493px;
+    padding: 0 15px;
+    background-repeat: no-repeat;
+}

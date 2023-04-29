@@ -29,15 +29,147 @@ Nguyen Huu Minh -->
     <link rel="stylesheet" href="./css/questions.css">
     <link rel="stylesheet" href="./css/featured.css">
     <link rel="stylesheet" href="./css/ourClients.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/tools.css">
+
+
+
 
 
 
 
 </head>
 <body>
-    <header></header>
-    <section class="carousel"></section>
-    <section class="tools"></section>
+
+ <!-- HEADER -->
+
+ <header class="main-header fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg px-0 pt-lg-0">
+        <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">
+          <i class="fa fa-handshake"></i>
+          <span>Masterwork</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Blog Posts</a>
+                <a class="dropdown-item" href="#">Landing page</a>
+                <a class="dropdown-item" href="#">404 page</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <div class="search-right HeaderSearch mr-lg-3">
+            <a href="#search" class="search-search" title="search">
+              <span class="fa fa-search" aria-hidden="true"></span>
+            </a>
+
+            <!-- search popup -->
+            <div id="search" class="pop-overlay">
+              <div class="popup">
+                <form action="https://wp.w3layouts.com/masterwork/" method="GET" class="search-box d-sm-flex">
+                  <input type="search" placeholder="Enter Keyword" name="s" required="required" autofocus="">
+                  <button type="submit" class="btn">Search</button>
+                </form>
+                <a class="close" href="#close">×</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="schedule">
+            <button type="button" class="btn btn-outline-danger">SCHEDULE A DEMO</button>
+          </div>
+          <!-- <form class="form-inline my-2 my-lg-0" id="search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"></button>
+                  </form> -->
+        </div>
+      </nav>
+    </div>
+
+  </header>
+
+
+  <!-- CAROUSEL -->
+  <section class="maCarousel">
+    <div class="container">
+      <div class="maCarousel__content">
+        <div class="maCarousel__left">
+          <h2>We Execute Our Ideas From Start to Finish</h2>
+          <p>Building a beautiful interactive business for startups and innovative companies.</p>
+          <button type="button" class="btn btn-outline-danger">GET STARTED</button>
+        </div>
+        <div class="maCarousel__right"></div>
+
+      </div>
+    </div>
+  </section>
+ 
+
+
+  <!-- TOOLS -->
+  <div class="maTools py-5">
+    <div class="container py-md-3">
+      <div class="maTools__title">
+        <h6>WHY CHOOSE US</h6>
+        <h3>Tools for business startup to professional</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi doloremque pariatur incidunt reiciendis
+          consequatur quidem sunt, voluptatum voluptatem corrupti.</p>
+      </div>
+      <div class="maTools__contents">
+        <div class="col-lg-4 col-md-6 mt-5">
+          <div class="maTools__item">
+            <img src="./img/s1.png" alt="">
+            <h3>Interactive</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus reiciendis architecto eos placeat
+              incidunt illo.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5">
+          <div class="maTools__item">
+            <img src="./img/s2.png" alt="">
+            <h3>Interactive</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus reiciendis architecto eos placeat
+              incidunt illo.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5">
+          <div class="maTools__item">
+            <img src="./img/s3.png" alt="">
+            <h3>Interactive</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus reiciendis architecto eos placeat
+              incidunt illo.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
     <section class="about us"></section>
     <section class="number"></section>
     <section class="info"></section>
