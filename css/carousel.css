@@ -1,7 +1,7 @@
 .maCarousel {
     margin-top: 90px;
     padding: 80px 20px 0;
-    background: linear-gradient(to right, white, rgba(255, 255, 255, 0.8)), url(../img/banner.jpg) ;
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0.9)), url(../img/banner.jpg) ;
     position: relative;
     z-index: 1;
     background-size: cover;
