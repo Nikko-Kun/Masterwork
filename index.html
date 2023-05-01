@@ -27,6 +27,10 @@ Nguyen Huu Minh -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+
+
+
+
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/variables.css">
@@ -56,7 +60,7 @@ Nguyen Huu Minh -->
 
     <!-- HEADER -->
 
-    <header class="main-header fixed-top">
+    <header class="main-header fixed-top" id="header">
         <div class="container">
             <nav class="navbar navbar-expand-lg px-0 pt-lg-0">
                 <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">
@@ -81,9 +85,7 @@ Nguyen Huu Minh -->
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                                aria-expanded="false">
-                                Pages
-                            </a>
+                                aria-expanded="false">Pages</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Blog Posts</a>
                                 <a class="dropdown-item" href="#">Landing page</a>
@@ -124,9 +126,8 @@ Nguyen Huu Minh -->
 
     </header>
 
-
     <!-- CAROUSEL -->
-    <section class="maCarousel">
+    <section class="maCarousel" id="carousel">
         <div class="container">
             <div class="maCarousel__content">
                 <div class="maCarousel__left">
@@ -140,59 +141,49 @@ Nguyen Huu Minh -->
         </div>
     </section>
 
-
-
     <!-- TOOLS -->
-    <div class="maTools py-5">
+    <section class="maTools py-5" id="tools">
         <div class="container py-md-3">
             <div class="maTools__title">
-                <h6>WHY CHOOSE US</h6>
+                <h6 class="ma-title">WHY CHOOSE US</h6>
                 <h3>Tools for business startup to professional</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi doloremque pariatur incidunt
-                    reiciendis
-                    consequatur quidem sunt, voluptatum voluptatem corrupti.</p>
+                    reiciendis consequatur quidem sunt, voluptatum voluptatem corrupti.</p>
             </div>
             <div class="maTools__contents">
-                <div class="row">
+                <div class="row ma-title">
                     <div class="col-lg-4 col-md-6 mt-5">
                         <div class="maTools__item">
                             <img src="./img/s1.png" alt="">
                             <h3>Interactive</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus reiciendis
-                                architecto
-                                eos placeat
-                                incidunt illo.</p>
+                                architecto eos placeat incidunt illo.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-5">
                         <div class="maTools__item">
                             <img src="./img/s2.png" alt="">
-                            <h3>Interactive</h3>
+                            <h3>Business</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus reiciendis
-                                architecto
-                                eos placeat
-                                incidunt illo.</p>
+                                architecto eos placeat incidunt illo.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-5">
                         <div class="maTools__item">
                             <img src="./img/s3.png" alt="">
-                            <h3>Interactive</h3>
+                            <h3>Inspiration</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus reiciendis
-                                architecto
-                                eos placeat
-                                incidunt illo.</p>
+                                architecto eos placeat incidunt illo.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
 
     <!-- ABOUT US -->
 
-    <div class="aboutUs py-5">
+    <section class="aboutUs py-5" id="aboutUs">
         <div class="container py-lg-3 mt-3">
             <div class="aboutUs__content">
                 <div class="aboutUs__title col-sm-6 pr-md-5">
@@ -211,11 +202,11 @@ Nguyen Huu Minh -->
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- NUMBER -->
 
-    <div class="maNumber w3l-stats pb-5 pt-2" id="stats">
+    <section class="maNumber w3l-stats pb-5 pt-2" id="number">
         <div class="container py-lg-3 mt-3">
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
@@ -247,39 +238,37 @@ Nguyen Huu Minh -->
                 </div>
             </div>
         </div>
-    </div>
-
-
+    </section>
 
     <!-- INFO-->
 
-
-        <section class="info w3l-index4">
-            <div class="new-block top-bottom">
-              <div class="container HomePageCover">
+    <section class="info w3l-index4" id="info">
+        <div class="new-block top-bottom">
+            <div class="container HomePageCover">
                 <div class="middle-section">
-                  <div class="section-width">
-                    <h2>
-                      We are true to ourselves, and commit to always perform at our best.          </h2>
-                  </div>
-                  <div class="link-list-menu">
-                    <p class="mt-md-4 mt-3 mb-md-5 mb-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, doloribus atque. Corrupti exercitationem voluptatem ipsum iste consequuntur et vitae voluptas temporibus? Maxime dolores amet voluptatum illo consequatur placeat fugit ducimus.          </p>
-                    <a href="#url" class="btn btn-light theme-button">
-                      Read more</a>
-                  </div>
+                    <div class="section-width">
+                        <h2>
+                            We are true to ourselves, and commit to always perform at our best. </h2>
+                    </div>
+                    <div class="link-list-menu">
+                        <p class="mt-md-4 mt-3 mb-md-5 mb-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, doloribus atque.
+                            Corrupti exercitationem voluptatem ipsum iste consequuntur et vitae voluptas temporibus?
+                            Maxime dolores amet voluptatum illo consequatur placeat fugit ducimus. </p>
+                        <a href="#url" class="btn btn-light theme-button">
+                            Read more</a>
+                    </div>
                 </div>
-              </div>
             </div>
-          </section>
+        </div>
+    </section>
 
     <!-- QUESTIONS -->
 
-
-    <section class="questions section-inner py-5">
-        <div class="container py-lg-5">
-            <div class="title">
-                <p>QUESTIONS AND ANSWERS</p>
+    <section class="questions section-inner py-5" id="header">
+        <div class="container py-lg-5 ma-title">
+            <div>
+                <h6>QUESTIONS AND ANSWERS</h6>
                 <h2>Genaral FAQs</h2>
             </div>
             <p class="my-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
@@ -364,15 +353,15 @@ Nguyen Huu Minh -->
 
     <!-- FEATURED -->
 
-    <section class="featured py-5 mb-4">
+    <section class="featured py-5 mb-4" id="featured">
         <div class="container py-lg-3">
-            <div class="title">
-                <p>FEATURED CASES</p>
+            <div class="ma-title">
+                <h6>FEATURED CASES</h6>
                 <h2>Completed Projects</h2>
+                <p class="my-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                    Nulla mollis <br> dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+                </p>
             </div>
-            <p class="my-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-                Nulla mollis <br> dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
-            </p>
             <div class="row mt-5">
                 <div class="col-lg-10 mx-auto">
                     <div style="display: block; width: 100%; margin: 0;">
@@ -470,17 +459,17 @@ Nguyen Huu Minh -->
 
     <!-- OUR CLIENTS -->
 
-    <section class="Our clients">
+    <section class="Our clients" id="ourClients">
         <div class="testimonials py-5">
             <div class="container py-lg-3">
-                <div class="title">
-                    <p>OUR CLIENTS TESTIMONIALS</p>
+                <div class="ma-title">
+                    <h6>OUR CLIENTS TESTIMONIALS</h6>
                     <h2>What People Say</h2>
+                    <p class="my-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                        Curae; Nulla mollis <br> dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis
+                        quam.
+                    </p>
                 </div>
-                <p class="my-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                    Curae;
-                    Nulla mollis <br> dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
-                </p>
                 <div class="row mt-4">
                     <div class="col-md-12 mx-auto pb-5">
                         <div class="owl-two owl-carousel owl-theme owl-loaded owl-drag">
@@ -614,8 +603,15 @@ Nguyen Huu Minh -->
 
     <!-- COMMUNITY -->
 
-    <section class="community"></section>
-    <footer></footer>
+    <section class="community" id="community">
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer" id="footer">
+
+    </footer>
 
 
 
