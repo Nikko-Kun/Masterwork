@@ -34,12 +34,6 @@
     margin-top: 5px;
     text-align: center;
 }
-.maTools__contents {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
 .maTools__contents .maTools__item {
     display: flex;
     flex-direction: column;

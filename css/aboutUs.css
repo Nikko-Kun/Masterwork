@@ -1,0 +1,64 @@
+.aboutUs {
+    background-color: var(--light-bg-color);
+}
+
+.aboutUs__content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.aboutUs img {
+    width: 100%;
+}
+
+.aboutUs__title h6 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.aboutUs__title h3 {
+    font-size: 35px;
+    line-height: 40px;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.aboutUs__title p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--text-color);
+    line-height: 24.4px;
+    padding: 20px 0;
+}
+
+.aboutUs__title button {
+    padding: 15px 30px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #dc4f72;
+    border-color: #dc4f72;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #d62f58;
+    border-color: #cf2952;
+}
+
+.aboutUs__content img {
+    border-radius: var(--card-curve);
+    transition: 0.3s ease-in-out;
+    }
+  
+.aboutUs__content img:hover {
+    transform: var(--transformY);
+    transition: 0.3s ease-in-out; }
