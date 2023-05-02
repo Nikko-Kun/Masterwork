@@ -1,4 +1,5 @@
-:root {
+#myBody {
+
     --primary: #dc4f72;
     --secondary: #0d5fa8;
     --title-color: #2C3038;
@@ -10,20 +11,40 @@
     --bg-lightgrey: #f7f7f7;
     --border-color-light: #f8f9fa;
     --card-curve: 6px;
-    --iframe-filter : grayscale(0%);
+    --iframe-filter: grayscale(0%);
     --card-box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
     --card-hover-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
     --transformY: translateY(-0.5rem);
-    }
-    [data-theme="dark"] {
-        --primary: #dc4f72;
-        --secondary: #0d5fa8;
-        --title-color: #eee;
-        --text-color: #b7b7b7;
-        --border-color: #333;
-        --bg-lightgrey:  #191c1d;
-        --border-color-light: #333;
-        --bg-color: #131617;
-        --iframe-filter : grayscale(100%);
-        --light-bg-color: #191c1d; }
-      
+
+}
+
+#switchButton .gg-sun {
+    display: none;
+}
+
+#switchButton .gg-moon {
+    display: block;
+    color: black;
+}
+
+.dark#myBody {
+    --primary: #dc4f72;
+    --secondary: #0d5fa8;
+    --title-color: #eee;
+    --text-color: #b7b7b7;
+    --border-color: #333;
+    --bg-lightgrey: #191c1d;
+    --border-color-light: #333;
+    --bg-color: #131617;
+    --iframe-filter: grayscale(100%);
+    --light-bg-color: #191c1d;
+}
+
+.dark #switchButton .gg-sun {
+    display: block;
+    color: white;
+}
+
+.dark #switchButton .gg-moon {
+    display: none;
+}
