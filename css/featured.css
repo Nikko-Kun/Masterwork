@@ -1,3 +1,7 @@
+.featured {
+    background-color: var(--bg-color);
+}
+
 .nav-pills li{
     font-weight: 700;
     font-size: 22px;
@@ -10,29 +14,29 @@
     text-align: center;
     color: #0c0d0fde;
     background-color: none;
-    border-bottom: 3px solid #f8f9fa;
+    border-bottom: 3px solid var(--border-color-light);
 }
 .featured .nav-pills .active {
     /* margin-bottom: -1px; */
-    border-bottom: 3px #dc4f72 solid;
-    color: #dc4f72;
+    border-bottom: 3px var(--primary) solid;
+    color: var(--primary);
 } 
 .featured .nav-pills .nav-link {
-    color: #2C3038;
-    background-color: white;
+    color: var(--title-color);
+    background-color: var(--bg-color);
 }
 .tab-content {
     margin: 20px 0;
 }
 .tab-content h3{
-    color: #2C3038;
+    color: var(--title-color);
     margin-bottom: 16px;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
 }
 .tab-content p{
-    color: #5a5a5a;
+    color: var(--text-color);
     margin-bottom: 16px;
     font-size: 16px;
     line-height: 24.5px;
