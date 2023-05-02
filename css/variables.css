@@ -18,14 +18,7 @@
 
 }
 
-#switchButton .gg-sun {
-    display: none;
-}
 
-#switchButton .gg-moon {
-    display: block;
-    color: black;
-}
 
 .dark#myBody {
     --primary: #dc4f72;
@@ -40,11 +33,3 @@
     --light-bg-color: #191c1d;
 }
 
-.dark #switchButton .gg-sun {
-    display: block;
-    color: white;
-}
-
-.dark #switchButton .gg-moon {
-    display: none;
-}

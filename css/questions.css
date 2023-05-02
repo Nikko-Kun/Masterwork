@@ -3,7 +3,7 @@
 
 
 .questions {
-    background-color: #f7f9fc;
+    background-color: var(--light-bg-color);
 }
 .questions__image img{
     border-radius: 6px;
@@ -24,10 +24,10 @@
 .questions__content ul li{
     position: relative;
     padding: 25px 50px 25px 20px;
-    border: 1px solid #eee;
+    border: 1px solid var(--border-color);
     margin: 0 0 15px 0;
     border-radius: 6px;
-    background-color: #fff;
+    background-color: var(--bg-color);
 }
 .questions__content ul li input{
     position: absolute;
@@ -45,10 +45,12 @@
     margin-top: 16px;
     right: 25px;
     top: 16px;
+    background-color: var(--light-bg-color);
+
 }
+
 .questions__content ul li i::after, .questions__content ul li i::before{
     position: absolute;
-   
 }
 .questions__content li h2{
     font-size: 20px;
@@ -58,10 +60,10 @@
     margin: 0;
     padding: 0;
     cursor: pointer;
-    color: #2C3038;
+    color: var(--title-color);
 }
 .questions__content ul li p{
-    color: var#5a5a5a;
+    color: var(--text-color);
     font-size: 16px;
     line-height: 24.5px;
     position: relative;

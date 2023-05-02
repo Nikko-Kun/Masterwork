@@ -1,3 +1,6 @@
+.maTools {
+    background-color: var(--bg-color);
+}
 .maTools__title {
     display: flex;
     flex-direction: column;

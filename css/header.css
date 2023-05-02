@@ -1,5 +1,5 @@
 header.main-header {
-  background-color: white;
+  background-color: var(--bg-color);
   padding: 0;
   transition: all 0.4s ease 0s;
   height: 90px;
@@ -197,4 +197,28 @@ header .navbar .search-right .search-search span.fa:hover {
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+}
+.theme-switch-wrapper i {
+  font-size: 1.2rem;
+}
+
+#switchButton .fa-sun {
+  display: none;
+}
+
+#switchButton .fa-moon {
+  display: block;
+  color: black;
+}
+
+.dark #switchButton .fa-sun {
+  display: block;
+  color: white;
+}
+
+.dark #switchButton .fa-moon {
+  display: none;
 }
