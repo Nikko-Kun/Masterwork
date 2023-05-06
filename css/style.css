@@ -9,10 +9,10 @@ html, body {
     font-family: 'Nunito Sans', sans-serif;
     color: #404040;
 }
-/* .container {
+.container {
     max-width: 1200px;
     padding: 0 25px;
-} */
+}
 .container {
     width: 100%;
     padding-right: 15px;
