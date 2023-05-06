@@ -118,7 +118,7 @@
 .owl-carousel .owl-stage {
   position: relative;
   touch-action: manipulation;
-  -moz-backface-visibility: hidden; }
+}
 
 .owl-carousel .owl-stage:after {
   content: ".";
@@ -131,18 +131,12 @@
 .owl-carousel .owl-stage-outer {
   position: relative;
   overflow: hidden;
-  -webkit-transform: translate3d(0, 0, 0); }
+ }
 
-.owl-carousel .owl-item,
-.owl-carousel .owl-wrapper {
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translate3d(0, 0, 0); }
 
 .owl-carousel .owl-item {
   min-height: 1px;
   float: left;
-  -webkit-backface-visibility: hidden;
-  -webkit-touch-callout: none;
   }
 
 .owl-carousel .owl-dots.disabled,
@@ -256,7 +250,6 @@
   background: url(owl.video.play.png) no-repeat;
   cursor: pointer;
   z-index: 1;
-  -webkit-backface-visibility: hidden;
   transition: transform .1s ease; }
 
 .owl-carousel .owl-video-play-icon:hover {
@@ -348,7 +341,6 @@
   background: var(--bg-color);
   display: block;
   border: none;
-  -webkit-backface-visibility: visible;
   transition: opacity .2s ease;
   border-radius: 0;
   position: relative; }

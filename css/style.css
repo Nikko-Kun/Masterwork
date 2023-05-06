@@ -79,6 +79,14 @@ html, body {
     background-color: var(--primary);
     border-color: var(--primary);
   }
+  .btn-outline-primary {
+    color: #dc4f72;
+    border-color: #dc4f72;
+    }
+    .btn-outline-primary:hover {
+      color: #fff;
+      background-color: #dc4f72;
+      border-color: #dc4f72; }
 
 .ma-title h6 {
     font-size: 16px;
